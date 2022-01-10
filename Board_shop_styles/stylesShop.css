@@ -1,0 +1,90 @@
+.flex-container {
+    display: flex;
+    background-image: url('../pictures/shop/shopItemBackground.jpg');
+    margin-top: 10px;
+    border-style:solid;
+    border-color: black;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    font-size: 30px;
+  }
+
+  p{
+      font-size: large;
+  }
+
+  div#photo{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style:solid;
+    border-color: white;
+  }
+
+  div#name{
+    min-width: 100px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 75px;
+    border-style:solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+  }
+
+  div#type{
+    min-width: 200px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 75px;
+    border-style:solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+  }
+
+  div#info{
+    min-width: 200px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 31px;
+    border-style:solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+  }
+
+  div#seller{
+    min-width: 200px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 31px;
+    border-style:solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+  }
+
+  div#price{
+    min-width: 100px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 31px;
+    border-style:solid;
+    border-color: black;
+    color: black;
+    font-weight: bolder;
+  }
+
+  div#price:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+  }

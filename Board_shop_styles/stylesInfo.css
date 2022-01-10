@@ -1,0 +1,43 @@
+.content-wrap-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.column-narrow-info {
+    width: 20%;
+    float: left;
+    min-height: 175px;
+}
+
+.column-wide-info {
+    width: 80%;
+    float: left;
+    max-width: 950px;
+    min-height: 175px;
+}
+
+p#history{
+    border-style:solid;
+    border-color: black;
+    padding: 10px;
+}
+
+section#surfing{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+section#windsurfing{
+    padding-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    font-size: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }

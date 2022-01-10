@@ -1,0 +1,24 @@
+h2{
+    font-family: 'Yuji Hentaigana Akari', sans-serif;
+}
+h3{
+    font-family: 'Yuji Hentaigana Akari', sans-serif;
+    padding: 10px;
+}
+table, td {
+    border:3px solid black;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+  }
+  td{
+      font-weight: bold;
+      text-align: center;
+  }
+  th{
+      font-weight: bolder;
+  }

@@ -1,0 +1,86 @@
+body{
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-image: linear-gradient(to bottom right, lightblue, white);
+}
+header{
+    font-family: 'Yuji Hentaigana Akari', sans-serif;
+    text-align: left;
+    background-image:url('../pictures/header.jpg');
+    padding: 20px;
+    height: 205px;
+    color: white;
+}
+h1{
+    padding: 20px 20px;
+    font-size: xx-large;
+    font-weight:lighter;
+}
+h4{
+    font-weight: bold;
+}
+section#headerNav{
+    text-align: center;
+}
+a{
+    color: lightblue;
+    font-size: large;
+    text-decoration: none;
+    border-style:solid;
+    border-color: black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    padding: 5px;
+}
+a:hover{
+    color: black;
+    background: white;
+}
+a#left{
+    float: left;
+}
+a#center{
+    display: inline-block;
+}
+a#right{
+    float: right;
+}
+
+main{
+    font-family: 'Yuji Hentaigana Akari', sans-serif;
+    text-align: left;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 35%;
+    float: left;
+    padding-left: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 62%;
+    float: left;
+    min-height: 175px;
+}
+
+div#tip{
+    border-style:solid;
+    border-color: black;
+    padding: 10px;
+}
+
+div#indexpics{
+    margin-top: 10px;
+    border-style:solid;
+    border-color: black;
+    padding: 10px;
+}
+
