@@ -1,5 +1,6 @@
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     background-image: url('../pictures/shop/shopItemBackground.jpg');
     margin-top: 10px;
     border-style:solid;
@@ -31,8 +32,8 @@
   }
 
   div#type{
-    padding-top: 30px;
-    min-width: 150px;
+    padding-top: 15px;
+    min-width: 125px;
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
